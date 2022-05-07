@@ -5,6 +5,7 @@ def my_function(x):
   return x[::-1]
 
 frase = input('Digite um frase qualqer: ')
+frase = frase.replace(" ","")
 print(frase)
 
 frase2 = my_function(frase)
