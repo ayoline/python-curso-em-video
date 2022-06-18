@@ -4,9 +4,8 @@ from time import sleep
 contagem = []
 
 def contador(inicio, fim, passo):
-    ini = inicio 
-    fi = fim 
-    pas = passo
+    ini = inicio; fi = fim; pas = passo
+    
     print('-=' * 20)
     print(f'Contagem de {ini} até {fi} de {pas} em {pas}')
 
